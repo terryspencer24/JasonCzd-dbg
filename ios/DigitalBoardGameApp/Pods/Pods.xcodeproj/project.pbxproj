@@ -1,0 +1,1180 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD5013B137C9127AFD3A46DBC72943A1 /* Keychain.swift */; };
+		091A5AD704D3EEE05D3D3E8FD0F00A31 /* Pods-DigitalBoardGameAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FA56AC4A89A7270A57A1DB608A46E52 /* Pods-DigitalBoardGameAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C8B73BD676DC8CCF28396A87CD79DE9 /* StompClientLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1EA381F8AF6C3550404E427E0B46F2 /* StompClientLib-dummy.m */; };
+		0FBCE1F8B05E83D5493F7475D73CDA7D /* StompClientLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13E366534BAE90EA5847227460B266F3 /* StompClientLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11D4BFF1E341E161345854D633384E06 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		129E2DEA6893C325FE8B4C53EF719D4F /* SocketRocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */; };
+		223FE035CAAA8F4F6B29971AC0DE0FB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0909B7B6F0BED5A6D744925457686B85 /* KeychainAccess-dummy.m */; };
+		4F01651247C9BD36A44F1B118765B599 /* Pods-DigitalBoardGameApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 03E921686FC4EE625EFD7D1CD6931F95 /* Pods-DigitalBoardGameApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FFF9E71523AB8E7AE48AA7A12D77854 /* Pods-DigitalBoardGameAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E191F90F2FF1B63C458F0A418022A1 /* Pods-DigitalBoardGameAppTests-dummy.m */; };
+		735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71DE51791E114CBEF495B09C2A48DA30 /* SocketRocket-dummy.m */; };
+		73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D9AFDD22A0507927D62859A27DC757 /* SRWebSocket.m */; };
+		767DCB06E9B16627B135FAF4D62E7B34 /* StompClientLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AA4A08303E4AAF2380E8702250358B4 /* StompClientLib.swift */; };
+		778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C9FA8E104C2A997109D47930E45AB70 /* SocketRocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 96563C8F6ECA3C36678EAD91F8F9CF68 /* SRWebSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */; };
+		AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */; };
+		AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		DF65CAE53AE72328921F54631FD6268D /* Pods-DigitalBoardGameApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EA350DE4F0C8F7EA11FF2595D96FEA6 /* Pods-DigitalBoardGameApp-dummy.m */; };
+		E77FA0B81C80DF1BF9D447B532182C9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */; };
+		EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93A17B129C386ED9EA30C2844FDD0AD8 /* KeychainAccess-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 442799FE99016B59FDF70BCAE14C7109 /* SocketRocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11275BBA428A5708EEAC081974B15ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD357877094CC6561657F2D15837D659;
+			remoteInfo = StompClientLib;
+		};
+		3EF4CBF5A2A1EDC537F82EA396DB3D61 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA04D79814EE84ABF20A0D6EDDEB59EC;
+			remoteInfo = "Pods-DigitalBoardGameApp";
+		};
+		533CE1DDC4FB47E88CA20664F10761ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 615C831BCE925ED486B225B87E44926D;
+			remoteInfo = KeychainAccess;
+		};
+		93C859D34C8CDD3FAA81CE425977DC3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+		94A9C006A3F0A8E8CB2251095F082B81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1948D0B63D2CF6A48E18B0B292BC6091;
+			remoteInfo = SocketRocket;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E921686FC4EE625EFD7D1CD6931F95 /* Pods-DigitalBoardGameApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalBoardGameApp-umbrella.h"; sourceTree = "<group>"; };
+		07810EB8B3F6CFF1C0E4C4AC6405A13A /* Pods-DigitalBoardGameAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DigitalBoardGameAppTests.modulemap"; sourceTree = "<group>"; };
+		087B8C953AB5D4C6D7F87C8647F2120B /* SocketRocket-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-prefix.pch"; sourceTree = "<group>"; };
+		0909B7B6F0BED5A6D744925457686B85 /* KeychainAccess-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainAccess-dummy.m"; sourceTree = "<group>"; };
+		0AE7A3005FF622E411A1423BB8F2C901 /* Pods-DigitalBoardGameApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalBoardGameApp.debug.xcconfig"; sourceTree = "<group>"; };
+		0BC8F337D2555A514E1DC01758F5F1E0 /* KeychainAccess-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-prefix.pch"; sourceTree = "<group>"; };
+		13E366534BAE90EA5847227460B266F3 /* StompClientLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-umbrella.h"; sourceTree = "<group>"; };
+		18E527E8D0F4924E1E60D16586757996 /* StompClientLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "StompClientLib-prefix.pch"; sourceTree = "<group>"; };
+		1AA4A08303E4AAF2380E8702250358B4 /* StompClientLib.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StompClientLib.swift; path = StompClientLib/Classes/StompClientLib.swift; sourceTree = "<group>"; };
+		1EA350DE4F0C8F7EA11FF2595D96FEA6 /* Pods-DigitalBoardGameApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitalBoardGameApp-dummy.m"; sourceTree = "<group>"; };
+		26D3AAE540A4E66D015CCA78D1EC881A /* StompClientLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = StompClientLib.xcconfig; sourceTree = "<group>"; };
+		2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3547FF4311C6BCA40E18AB8F4C61C052 /* Pods-DigitalBoardGameAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalBoardGameAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = StompClientLib.framework; path = StompClientLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CFADBA13E31BC9387AEC75A447132F3 /* Pods-DigitalBoardGameApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DigitalBoardGameApp.modulemap"; sourceTree = "<group>"; };
+		416C3979756DCDAFCDD06ACFB1DF2732 /* KeychainAccess-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainAccess-Info.plist"; sourceTree = "<group>"; };
+		442799FE99016B59FDF70BCAE14C7109 /* SocketRocket-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SocketRocket-umbrella.h"; sourceTree = "<group>"; };
+		4C82C14BE69EAB65B01F4194A1412E51 /* Pods-DigitalBoardGameAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DigitalBoardGameAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4C9FA8E104C2A997109D47930E45AB70 /* SocketRocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SocketRocket.h; path = SocketRocket/SocketRocket.h; sourceTree = "<group>"; };
+		4FA56AC4A89A7270A57A1DB608A46E52 /* Pods-DigitalBoardGameAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DigitalBoardGameAppTests-umbrella.h"; sourceTree = "<group>"; };
+		597054ECBE929F4E0CE00E7C6EAEBA6A /* Pods-DigitalBoardGameApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DigitalBoardGameApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
+		5F320930DEBEBAEC8ADE09FA6B588D60 /* Pods-DigitalBoardGameApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitalBoardGameApp-Info.plist"; sourceTree = "<group>"; };
+		69B41E582DBCC586FC5E0E4F66388782 /* StompClientLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = StompClientLib.modulemap; sourceTree = "<group>"; };
+		6C1EA381F8AF6C3550404E427E0B46F2 /* StompClientLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "StompClientLib-dummy.m"; sourceTree = "<group>"; };
+		71DE51791E114CBEF495B09C2A48DA30 /* SocketRocket-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SocketRocket-dummy.m"; sourceTree = "<group>"; };
+		79F52F4406E20DF1D44A9A7CCB0AD8A2 /* Pods-DigitalBoardGameAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalBoardGameAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		80E191F90F2FF1B63C458F0A418022A1 /* Pods-DigitalBoardGameAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DigitalBoardGameAppTests-dummy.m"; sourceTree = "<group>"; };
+		8261A9A05A46020270BD146F841711A4 /* Pods-DigitalBoardGameAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitalBoardGameAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		84D9AFDD22A0507927D62859A27DC757 /* SRWebSocket.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SRWebSocket.m; path = SocketRocket/SRWebSocket.m; sourceTree = "<group>"; };
+		85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SocketRocket.framework; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92D80538F88A6D986812CDB30EB16A50 /* StompClientLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "StompClientLib-Info.plist"; sourceTree = "<group>"; };
+		9354004E1DF4AF1066B54C62F7B235D9 /* SocketRocket-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SocketRocket-Info.plist"; sourceTree = "<group>"; };
+		93A17B129C386ED9EA30C2844FDD0AD8 /* KeychainAccess-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainAccess-umbrella.h"; sourceTree = "<group>"; };
+		9419F19315093E9A6CFF79A3CA62EDA6 /* Pods-DigitalBoardGameApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DigitalBoardGameApp-frameworks.sh"; sourceTree = "<group>"; };
+		96563C8F6ECA3C36678EAD91F8F9CF68 /* SRWebSocket.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SRWebSocket.h; path = SocketRocket/SRWebSocket.h; sourceTree = "<group>"; };
+		9B502450EE07AF7D79AA58BCE1F7C288 /* Pods-DigitalBoardGameApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitalBoardGameApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9E360908C117DEBFDE8A0D84FB47AF /* KeychainAccess.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainAccess.modulemap; sourceTree = "<group>"; };
+		AD5013B137C9127AFD3A46DBC72943A1 /* Keychain.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Keychain.swift; path = Lib/KeychainAccess/Keychain.swift; sourceTree = "<group>"; };
+		AF58D4852B08F5B3358DFA545644105A /* Pods-DigitalBoardGameAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DigitalBoardGameAppTests-Info.plist"; sourceTree = "<group>"; };
+		B3A69ACF84FF4D0711611817AB09BE95 /* KeychainAccess.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainAccess.xcconfig; sourceTree = "<group>"; };
+		B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		CA775191CDD2F9AE0541DB6F55271C3A /* Pods-DigitalBoardGameApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DigitalBoardGameApp.release.xcconfig"; sourceTree = "<group>"; };
+		CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SocketRocket.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D081C2E00535CD381B0223BDCC4C8415 /* SocketRocket.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SocketRocket.xcconfig; sourceTree = "<group>"; };
+		D6683FE8F641D0F33FCAC8AC60C4545B /* Pods_DigitalBoardGameAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DigitalBoardGameAppTests.framework; path = "Pods-DigitalBoardGameAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9AE2CBD08ABD77AC2501D037B2847F7 /* SocketRocket.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SocketRocket.modulemap; sourceTree = "<group>"; };
+		E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KeychainAccess.framework; path = KeychainAccess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE529EE2E46280C7C43B3FAAC03C5018 /* Pods_DigitalBoardGameApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DigitalBoardGameApp.framework; path = "Pods-DigitalBoardGameApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4FB71EF272000DD84B0B7AA7509A8CE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11D4BFF1E341E161345854D633384E06 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56AC35E789C811CE09501582CCA2174A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6E13391CF256137797D1705274013F /* CFNetwork.framework in Frameworks */,
+				AFCC22B68ABDE52031E93F0F719C122B /* Foundation.framework in Frameworks */,
+				A76B3FBFD4E21BF27C97B880955B9024 /* Security.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7668D0A8468B5894E555ECAA4EC50BC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EC4DC3F4A764364051BE6DB7FD72161 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F04A2B75E53C479DA6FBB448D3A4784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				223FE035CAAA8F4F6B29971AC0DE0FB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA95F52F889F3D510494A3DE055AABE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E77FA0B81C80DF1BF9D447B532182C9E /* Foundation.framework in Frameworks */,
+				129E2DEA6893C325FE8B4C53EF719D4F /* SocketRocket.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF84761A9BB49928912615B1A94F6CDB /* SocketRocket.framework */,
+				84F34EABADC4425D0B6A066617C46D81 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32EBA4DE6350FB384FB412DA40CEDC3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69B41E582DBCC586FC5E0E4F66388782 /* StompClientLib.modulemap */,
+				26D3AAE540A4E66D015CCA78D1EC881A /* StompClientLib.xcconfig */,
+				6C1EA381F8AF6C3550404E427E0B46F2 /* StompClientLib-dummy.m */,
+				92D80538F88A6D986812CDB30EB16A50 /* StompClientLib-Info.plist */,
+				18E527E8D0F4924E1E60D16586757996 /* StompClientLib-prefix.pch */,
+				13E366534BAE90EA5847227460B266F3 /* StompClientLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/StompClientLib";
+			sourceTree = "<group>";
+		};
+		5817D1B186FF1031BD827EBCD46FADC2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9AE2CBD08ABD77AC2501D037B2847F7 /* SocketRocket.modulemap */,
+				D081C2E00535CD381B0223BDCC4C8415 /* SocketRocket.xcconfig */,
+				71DE51791E114CBEF495B09C2A48DA30 /* SocketRocket-dummy.m */,
+				9354004E1DF4AF1066B54C62F7B235D9 /* SocketRocket-Info.plist */,
+				087B8C953AB5D4C6D7F87C8647F2120B /* SocketRocket-prefix.pch */,
+				442799FE99016B59FDF70BCAE14C7109 /* SocketRocket-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SocketRocket";
+			sourceTree = "<group>";
+		};
+		5A548B525A368A6358539AA627FFC0E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C67BCA818C14C007B3B4EF881429FAA4 /* Pods-DigitalBoardGameApp */,
+				8672077F5EC3E2AFE410FC9082E18C5F /* Pods-DigitalBoardGameAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F62661B59DE5686F864CC9F3D98343F /* KeychainAccess */ = {
+			isa = PBXGroup;
+			children = (
+				AD5013B137C9127AFD3A46DBC72943A1 /* Keychain.swift */,
+				E8A8098F37FF177913B49ABCA97C2B8D /* Support Files */,
+			);
+			name = KeychainAccess;
+			path = KeychainAccess;
+			sourceTree = "<group>";
+		};
+		84F34EABADC4425D0B6A066617C46D81 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5CA5607281B977E9F73E77EA51BCAFE7 /* CFNetwork.framework */,
+				2F8916CD1D3F2CBEE911D94D346FC9DC /* Foundation.framework */,
+				B6686B131596461C96AAADDADF0DC2C0 /* Security.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8672077F5EC3E2AFE410FC9082E18C5F /* Pods-DigitalBoardGameAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				07810EB8B3F6CFF1C0E4C4AC6405A13A /* Pods-DigitalBoardGameAppTests.modulemap */,
+				4C82C14BE69EAB65B01F4194A1412E51 /* Pods-DigitalBoardGameAppTests-acknowledgements.markdown */,
+				8261A9A05A46020270BD146F841711A4 /* Pods-DigitalBoardGameAppTests-acknowledgements.plist */,
+				80E191F90F2FF1B63C458F0A418022A1 /* Pods-DigitalBoardGameAppTests-dummy.m */,
+				AF58D4852B08F5B3358DFA545644105A /* Pods-DigitalBoardGameAppTests-Info.plist */,
+				4FA56AC4A89A7270A57A1DB608A46E52 /* Pods-DigitalBoardGameAppTests-umbrella.h */,
+				3547FF4311C6BCA40E18AB8F4C61C052 /* Pods-DigitalBoardGameAppTests.debug.xcconfig */,
+				79F52F4406E20DF1D44A9A7CCB0AD8A2 /* Pods-DigitalBoardGameAppTests.release.xcconfig */,
+			);
+			name = "Pods-DigitalBoardGameAppTests";
+			path = "Target Support Files/Pods-DigitalBoardGameAppTests";
+			sourceTree = "<group>";
+		};
+		956AEC8C8049BAFF628BBE31819531D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F62661B59DE5686F864CC9F3D98343F /* KeychainAccess */,
+				CDF36617B52FF53C65B8D9A3ADFA71B3 /* SocketRocket */,
+				B6748E9B507E3B51AACE3FF2CE343A23 /* StompClientLib */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6748E9B507E3B51AACE3FF2CE343A23 /* StompClientLib */ = {
+			isa = PBXGroup;
+			children = (
+				1AA4A08303E4AAF2380E8702250358B4 /* StompClientLib.swift */,
+				32EBA4DE6350FB384FB412DA40CEDC3E /* Support Files */,
+			);
+			name = StompClientLib;
+			path = StompClientLib;
+			sourceTree = "<group>";
+		};
+		C44D77A39ED9065D5E3C45D7D09BD2B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */,
+				FE529EE2E46280C7C43B3FAAC03C5018 /* Pods_DigitalBoardGameApp.framework */,
+				D6683FE8F641D0F33FCAC8AC60C4545B /* Pods_DigitalBoardGameAppTests.framework */,
+				85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */,
+				38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C67BCA818C14C007B3B4EF881429FAA4 /* Pods-DigitalBoardGameApp */ = {
+			isa = PBXGroup;
+			children = (
+				3CFADBA13E31BC9387AEC75A447132F3 /* Pods-DigitalBoardGameApp.modulemap */,
+				597054ECBE929F4E0CE00E7C6EAEBA6A /* Pods-DigitalBoardGameApp-acknowledgements.markdown */,
+				9B502450EE07AF7D79AA58BCE1F7C288 /* Pods-DigitalBoardGameApp-acknowledgements.plist */,
+				1EA350DE4F0C8F7EA11FF2595D96FEA6 /* Pods-DigitalBoardGameApp-dummy.m */,
+				9419F19315093E9A6CFF79A3CA62EDA6 /* Pods-DigitalBoardGameApp-frameworks.sh */,
+				5F320930DEBEBAEC8ADE09FA6B588D60 /* Pods-DigitalBoardGameApp-Info.plist */,
+				03E921686FC4EE625EFD7D1CD6931F95 /* Pods-DigitalBoardGameApp-umbrella.h */,
+				0AE7A3005FF622E411A1423BB8F2C901 /* Pods-DigitalBoardGameApp.debug.xcconfig */,
+				CA775191CDD2F9AE0541DB6F55271C3A /* Pods-DigitalBoardGameApp.release.xcconfig */,
+			);
+			name = "Pods-DigitalBoardGameApp";
+			path = "Target Support Files/Pods-DigitalBoardGameApp";
+			sourceTree = "<group>";
+		};
+		CDF36617B52FF53C65B8D9A3ADFA71B3 /* SocketRocket */ = {
+			isa = PBXGroup;
+			children = (
+				4C9FA8E104C2A997109D47930E45AB70 /* SocketRocket.h */,
+				96563C8F6ECA3C36678EAD91F8F9CF68 /* SRWebSocket.h */,
+				84D9AFDD22A0507927D62859A27DC757 /* SRWebSocket.m */,
+				5817D1B186FF1031BD827EBCD46FADC2 /* Support Files */,
+			);
+			name = SocketRocket;
+			path = SocketRocket;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				09F3E6A1737F6BAC5C6BB2A9EAE1C413 /* Frameworks */,
+				956AEC8C8049BAFF628BBE31819531D0 /* Pods */,
+				C44D77A39ED9065D5E3C45D7D09BD2B5 /* Products */,
+				5A548B525A368A6358539AA627FFC0E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E8A8098F37FF177913B49ABCA97C2B8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9D9E360908C117DEBFDE8A0D84FB47AF /* KeychainAccess.modulemap */,
+				B3A69ACF84FF4D0711611817AB09BE95 /* KeychainAccess.xcconfig */,
+				0909B7B6F0BED5A6D744925457686B85 /* KeychainAccess-dummy.m */,
+				416C3979756DCDAFCDD06ACFB1DF2732 /* KeychainAccess-Info.plist */,
+				0BC8F337D2555A514E1DC01758F5F1E0 /* KeychainAccess-prefix.pch */,
+				93A17B129C386ED9EA30C2844FDD0AD8 /* KeychainAccess-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KeychainAccess";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		17BA34119E6FD4CDB922FEF45E0884DA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1673306D2528E24477E098832882D05 /* SocketRocket-umbrella.h in Headers */,
+				778D0B3A3BFC6B74234D39F9EDCF3659 /* SocketRocket.h in Headers */,
+				9E2B1AC4FC728208BB79B52BFEB2D78F /* SRWebSocket.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39CC3E71CEA7805FCA03E3A1CC052EEA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEADFC5C1C5EC6E3E20506B8E069931D /* KeychainAccess-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4434C786F960315A52386A493794E4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F01651247C9BD36A44F1B118765B599 /* Pods-DigitalBoardGameApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD14F4E11F46F73F404294D900A42E1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				091A5AD704D3EEE05D3D3E8FD0F00A31 /* Pods-DigitalBoardGameAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE45BD44F7299AF89B6EBC3D5690CDD8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FBCE1F8B05E83D5493F7475D73CDA7D /* StompClientLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */;
+			buildPhases = (
+				17BA34119E6FD4CDB922FEF45E0884DA /* Headers */,
+				DB50286F169C0450B2990CE14479F856 /* Sources */,
+				56AC35E789C811CE09501582CCA2174A /* Frameworks */,
+				A6620E44D4248429BD059BDB7FBF21F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SocketRocket;
+			productName = SocketRocket;
+			productReference = 85A01882ED06DFEA2E0CE78BCDB204A7 /* SocketRocket.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		615C831BCE925ED486B225B87E44926D /* KeychainAccess */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BEE926243448802ACA6F07A75D9C025 /* Build configuration list for PBXNativeTarget "KeychainAccess" */;
+			buildPhases = (
+				39CC3E71CEA7805FCA03E3A1CC052EEA /* Headers */,
+				C4DE4004EE1661FE4BC4E6C40415F599 /* Sources */,
+				7668D0A8468B5894E555ECAA4EC50BC1 /* Frameworks */,
+				AE292B4411627ABE21EB769134C1E8BB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeychainAccess;
+			productName = KeychainAccess;
+			productReference = E8EE7F078656FABB8F6821D10FF994BB /* KeychainAccess.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BA04D79814EE84ABF20A0D6EDDEB59EC /* Pods-DigitalBoardGameApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B17DB8D50398BFB87FC481CD1B50C74A /* Build configuration list for PBXNativeTarget "Pods-DigitalBoardGameApp" */;
+			buildPhases = (
+				5B4434C786F960315A52386A493794E4 /* Headers */,
+				8C176CDA59751315D41714B4180F7431 /* Sources */,
+				7F04A2B75E53C479DA6FBB448D3A4784 /* Frameworks */,
+				76476C430B8CBF769B22997CAD692FEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4CE5B09659B1BE2569BFF712E62B687 /* PBXTargetDependency */,
+				17219D58A25C6F5BAEE030E78972C685 /* PBXTargetDependency */,
+				98E3A2E2CFEA207D15A14C35080CDDB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-DigitalBoardGameApp";
+			productName = "Pods-DigitalBoardGameApp";
+			productReference = FE529EE2E46280C7C43B3FAAC03C5018 /* Pods_DigitalBoardGameApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD357877094CC6561657F2D15837D659 /* StompClientLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F727EB48EE380168015ADA2AC4294F3 /* Build configuration list for PBXNativeTarget "StompClientLib" */;
+			buildPhases = (
+				AE45BD44F7299AF89B6EBC3D5690CDD8 /* Headers */,
+				FA3793544984CEE3156481535511CF59 /* Sources */,
+				CA95F52F889F3D510494A3DE055AABE3 /* Frameworks */,
+				35D1043DF75B58EDD5A038F3E54C5684 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE713F2ADE1EB8F057DBB59F46942E9D /* PBXTargetDependency */,
+			);
+			name = StompClientLib;
+			productName = StompClientLib;
+			productReference = 38C59ADED07962C73869AEE77E82DD87 /* StompClientLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D3C769ECEA50125C9443EB6EE7ED7F52 /* Pods-DigitalBoardGameAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D1B4C1A91D0E16B13E8FC194E747A63 /* Build configuration list for PBXNativeTarget "Pods-DigitalBoardGameAppTests" */;
+			buildPhases = (
+				ADD14F4E11F46F73F404294D900A42E1 /* Headers */,
+				843C8B601BD1F2B9BF77FE0DC96F616F /* Sources */,
+				4FB71EF272000DD84B0B7AA7509A8CE3 /* Frameworks */,
+				EC7ED993BBA746CE00A5B16887F5430F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				312BDFAC1EDB17F1139E99B9245BB570 /* PBXTargetDependency */,
+			);
+			name = "Pods-DigitalBoardGameAppTests";
+			productName = "Pods-DigitalBoardGameAppTests";
+			productReference = D6683FE8F641D0F33FCAC8AC60C4545B /* Pods_DigitalBoardGameAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C44D77A39ED9065D5E3C45D7D09BD2B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				615C831BCE925ED486B225B87E44926D /* KeychainAccess */,
+				BA04D79814EE84ABF20A0D6EDDEB59EC /* Pods-DigitalBoardGameApp */,
+				D3C769ECEA50125C9443EB6EE7ED7F52 /* Pods-DigitalBoardGameAppTests */,
+				1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */,
+				BD357877094CC6561657F2D15837D659 /* StompClientLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		35D1043DF75B58EDD5A038F3E54C5684 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76476C430B8CBF769B22997CAD692FEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6620E44D4248429BD059BDB7FBF21F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE292B4411627ABE21EB769134C1E8BB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7ED993BBA746CE00A5B16887F5430F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843C8B601BD1F2B9BF77FE0DC96F616F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FFF9E71523AB8E7AE48AA7A12D77854 /* Pods-DigitalBoardGameAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C176CDA59751315D41714B4180F7431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF65CAE53AE72328921F54631FD6268D /* Pods-DigitalBoardGameApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4DE4004EE1661FE4BC4E6C40415F599 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0441B3E976E5F55E22731AECFF0DBA88 /* Keychain.swift in Sources */,
+				4AEB48FE18565A59266480250E7C3FEA /* KeychainAccess-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB50286F169C0450B2990CE14479F856 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				735DFE5216ED66A16259B56CAB3B46CF /* SocketRocket-dummy.m in Sources */,
+				73B4B4972C5D3416AA4F2C65F5BE3305 /* SRWebSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA3793544984CEE3156481535511CF59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8B73BD676DC8CCF28396A87CD79DE9 /* StompClientLib-dummy.m in Sources */,
+				767DCB06E9B16627B135FAF4D62E7B34 /* StompClientLib.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17219D58A25C6F5BAEE030E78972C685 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 94A9C006A3F0A8E8CB2251095F082B81 /* PBXContainerItemProxy */;
+		};
+		312BDFAC1EDB17F1139E99B9245BB570 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-DigitalBoardGameApp";
+			target = BA04D79814EE84ABF20A0D6EDDEB59EC /* Pods-DigitalBoardGameApp */;
+			targetProxy = 3EF4CBF5A2A1EDC537F82EA396DB3D61 /* PBXContainerItemProxy */;
+		};
+		98E3A2E2CFEA207D15A14C35080CDDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = StompClientLib;
+			target = BD357877094CC6561657F2D15837D659 /* StompClientLib */;
+			targetProxy = 11275BBA428A5708EEAC081974B15ED4 /* PBXContainerItemProxy */;
+		};
+		B4CE5B09659B1BE2569BFF712E62B687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KeychainAccess;
+			target = 615C831BCE925ED486B225B87E44926D /* KeychainAccess */;
+			targetProxy = 533CE1DDC4FB47E88CA20664F10761ED /* PBXContainerItemProxy */;
+		};
+		BE713F2ADE1EB8F057DBB59F46942E9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SocketRocket;
+			target = 1948D0B63D2CF6A48E18B0B292BC6091 /* SocketRocket */;
+			targetProxy = 93C859D34C8CDD3FAA81CE425977DC3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07A2D2C5A8DACD128F7ED333599FDFC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3547FF4311C6BCA40E18AB8F4C61C052 /* Pods-DigitalBoardGameAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalBoardGameAppTests/Pods-DigitalBoardGameAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalBoardGameAppTests/Pods-DigitalBoardGameAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0FFEF2CC2585FCCD435F45A588F6CEA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F52F4406E20DF1D44A9A7CCB0AD8A2 /* Pods-DigitalBoardGameAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalBoardGameAppTests/Pods-DigitalBoardGameAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalBoardGameAppTests/Pods-DigitalBoardGameAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E6E01D222B49682C0A4F30C69B62249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D3AAE540A4E66D015CCA78D1EC881A /* StompClientLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
+				PRODUCT_NAME = StompClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		45293695F003AF5DCBA69464D33BD875 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A69ACF84FF4D0711611817AB09BE95 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		87BBB6750544094F4D125C88B25E130A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26D3AAE540A4E66D015CCA78D1EC881A /* StompClientLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/StompClientLib/StompClientLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/StompClientLib/StompClientLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/StompClientLib/StompClientLib.modulemap";
+				PRODUCT_MODULE_NAME = StompClientLib;
+				PRODUCT_NAME = StompClientLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9FE9C8376F285FD05D9DF96E9B70E719 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D081C2E00535CD381B0223BDCC4C8415 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B3D3AFA0D535F2C3E6B7D44BD5E7249F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA775191CDD2F9AE0541DB6F55271C3A /* Pods-DigitalBoardGameApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalBoardGameApp/Pods-DigitalBoardGameApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalBoardGameApp/Pods-DigitalBoardGameApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D76C8E74F3C18E5FD720A28DF57DCA22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE7A3005FF622E411A1423BB8F2C901 /* Pods-DigitalBoardGameApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DigitalBoardGameApp/Pods-DigitalBoardGameApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DigitalBoardGameApp/Pods-DigitalBoardGameApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F366A54856A93BA09DE630F6AB02694B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D081C2E00535CD381B0223BDCC4C8415 /* SocketRocket.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SocketRocket/SocketRocket-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SocketRocket/SocketRocket-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SocketRocket/SocketRocket.modulemap";
+				PRODUCT_MODULE_NAME = SocketRocket;
+				PRODUCT_NAME = SocketRocket;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FF3EC215E8144B4CBE1F2C8440716AA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3A69ACF84FF4D0711611817AB09BE95 /* KeychainAccess.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KeychainAccess/KeychainAccess-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KeychainAccess/KeychainAccess-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/KeychainAccess/KeychainAccess.modulemap";
+				PRODUCT_MODULE_NAME = KeychainAccess;
+				PRODUCT_NAME = KeychainAccess;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BEE926243448802ACA6F07A75D9C025 /* Build configuration list for PBXNativeTarget "KeychainAccess" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45293695F003AF5DCBA69464D33BD875 /* Debug */,
+				FF3EC215E8144B4CBE1F2C8440716AA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7578135F0A9991A7E2A8B169207EBA17 /* Build configuration list for PBXNativeTarget "SocketRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F366A54856A93BA09DE630F6AB02694B /* Debug */,
+				9FE9C8376F285FD05D9DF96E9B70E719 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D1B4C1A91D0E16B13E8FC194E747A63 /* Build configuration list for PBXNativeTarget "Pods-DigitalBoardGameAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A2D2C5A8DACD128F7ED333599FDFC4 /* Debug */,
+				0FFEF2CC2585FCCD435F45A588F6CEA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F727EB48EE380168015ADA2AC4294F3 /* Build configuration list for PBXNativeTarget "StompClientLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BBB6750544094F4D125C88B25E130A /* Debug */,
+				3E6E01D222B49682C0A4F30C69B62249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B17DB8D50398BFB87FC481CD1B50C74A /* Build configuration list for PBXNativeTarget "Pods-DigitalBoardGameApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D76C8E74F3C18E5FD720A28DF57DCA22 /* Debug */,
+				B3D3AFA0D535F2C3E6B7D44BD5E7249F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

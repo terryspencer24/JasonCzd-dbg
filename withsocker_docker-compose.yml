@@ -1,0 +1,55 @@
+version: '3'
+services:
+ dbg-db:
+  image: 'mysql:5.7'
+  environment:
+   MYSQL_DATABASE: 'dbg'
+   MYSQL_USER: 'user'
+   MYSQL_PASSWORD: 'pass'
+   MYSQL_ROOT_PASSWORD: 'pass'
+  expose:
+   - '3306' 
+  volumes:
+   - ${VOLUME}:/var/lib/mysql
+  networks:
+   dbgnet:
+    aliases:
+     - 'dbg-db'
+ dbg-api:
+  image: 'dbg-api:1.0.0'
+  ports:
+    - ${API_PORT}:8080
+  environment:
+   - server.port=8080
+   - MYSQL_HOST=dbg-db
+  networks:
+    dbgnet:
+     aliases:
+      - 'dbg-api'
+ dbg-websocket:
+  image: 'dbg-websocket:1.0.0'
+  ports:
+   - ${SOC_PORT}:8081
+  environment:
+   - server.port=8081
+  networks:
+   dbgnet:
+    aliases:
+     - 'dbg-websocket' 
+ dbg-webserver:
+  image: 'dbg-webserver:1.0.0'
+  ports:
+    - ${WEB_PORT}:80
+  networks:
+    dbgnet:
+     aliases:
+      - 'dbg-webserver'
+networks:
+ dbgnet:
+  ipam:
+   driver: default
+   config:
+    - subnet: ${NET_IP}
+volumes:
+ dbg-db-volume:
+ dbg-test-db-volume:

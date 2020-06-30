@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+		 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>dbg</groupId>
+    <artifactId>dbg-app</artifactId>
+    <packaging>pom</packaging>
+	<version>1.0.0</version>
+
+	<!-- sub modules -->
+	<modules>
+        <module>dbg-webserver</module>
+        <module>dbg-api</module>
+	<!-- <module>dbg-websocket</module> -->
+	<!-- currently experiencing out of memory starting both environments
+		<module>dbg-test</module>
+	-->
+    </modules>
+
+	<profiles>
+      <profile>
+         <id>ci</id>
+         <modules>
+        	<module>dbg-webserver</module>
+        	<module>dbg-api</module>
+		<!-- <module>dbg-websocket</module> -->
+			<module>dbg-test</module>
+         </modules>
+      </profile>
+      <profile>
+         <id>default</id>
+         <activation>
+            <activeByDefault>true</activeByDefault>
+         </activation>
+         <modules>
+        	<module>dbg-webserver</module>
+        	<module>dbg-api</module>
+		<!-- <module>dbg-websocket</module> -->
+         </modules>
+      </profile>
+   </profiles>
+	
+</project>

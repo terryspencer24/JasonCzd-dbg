@@ -1,0 +1,24 @@
+version: '3'
+services:
+ certbot:
+  image: certbot/certbot
+  container_name: certbot
+  volumes:
+    - certbot-etc:/etc/letsencrypt
+    - certbot-var:/var/lib/letsencrypt
+    - certbot-www:/var/www/certbot
+  depends_on:
+    - dbg-webserver
+  command:
+    - 'certonly'
+    - '--webroot'
+    - '--webroot-path=/var/www/certbot'
+    - '-m jason.casiday@gmail.com'
+    - '--agree-tos'
+    - '--no-eff-email'
+    - '--force-renewal'
+    - '-d tabletopster.com'
+volumes:
+ certbot-etc:
+ certbot-var:
+ certbot-www:
